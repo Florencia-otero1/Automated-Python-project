@@ -3,9 +3,9 @@ import os
 from datetime import datetime
 
 # Configuración de acceso
-CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=czbarg1devpymerpa001;AccountKey=mX4seqxGW25q1Rf1x+yd/UygJsqE4xU+ZMYdSFpZ6pyPmIqFqomNkL6xf+WzdgDioiKyh8N1XVE++AStDx293A==;EndpointSuffix=core.windows.net;"  # Reemplaza con tu cadena de conexión
-CONTAINER_NAME = "ecommerce"  # Reemplaza con el nombre del contenedor
-DIRECTORIO_LOCAL = r"C:\Users\Nicol\OneDrive\Desktop\bupa\Baja e ingresos nuevos ejecutivos\bajas y altas ejecutivos e-commerce\archivos"
+CONNECTION_STRING = ""  # cadena de conexión privada
+CONTAINER_NAME = ""  # nombre del contenedor privado
+DIRECTORIO_LOCAL = r"" # directorio local
 
 
 def obtener_blob_mas_reciente():
